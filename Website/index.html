@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Portfolio | Homepage</title>
+  <link rel="icon" href="icon.png" type="image/png" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+    }
+
+    .portfolio {
+      font-size: 24px;
+      font-weight: bold;
+      color: #a259ff;
+      text-decoration: none;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #7b2ff7;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .intro-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 50px;
+      background-color: #fff;
+      gap: 40px;
+      flex: 1;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .intro-section img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .intro-text {
+      max-width: 600px;
+    }
+
+    .intro-text h1 {
+      font-size: 36px;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .intro-text p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    #purpose {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #6a0dad;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      .intro-section {
+        padding: 40px 20px;
+      }
+
+      .intro-text h1 {
+        font-size: 28px;
+      }
+
+      .intro-text p {
+        font-size: 16px;
+      }
+
+      .intro-section img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header/Navbar -->
+  <header>
+    <a class="portfolio" href="index.html">Portfolio</a>
+    <nav>
+      <a href="profile.html">Profile</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html" class="contacts">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Intro Section -->
+  <section class="intro-section">
+    <div class="intro-text">
+      <h1>Welcome to Our Portfolio</h1>
+      <p>This website is a collection of our work, creativity, and progress in the IT field. Explore our experiences and passion through each section of the site.</p>
+      <p id="purpose">(School purposes only.)</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Cutamora and Caballero (Cebu Eastern College). All rights reserved.
+  </footer>
+
+</body>
+</html>

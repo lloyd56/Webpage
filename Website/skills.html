@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Portfolio | Skills</title>
+  <link rel="icon" href="icon.png" type="icon">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: white;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #0e0e15;
+    }
+
+    .portfolio a {
+      font-weight: bold;
+      font-size: 24px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      transition: background-color 0.3s, color 0.3s;
+      padding: 8px 16px;
+      border-radius: 4px;
+    }
+
+    .nav-links a:hover {
+      background-color: #7b2ff7;
+      color: white;
+    }
+
+    .nav-links .skills {
+      background-color: #7b2ff7;
+    }
+
+    /* Skills Section */
+    .skills-section {
+      padding: 50px;
+      background-color: #f1f1f1;
+    }
+
+    .skills-section h2 {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .skills-section h3 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .skills-description {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+      margin-bottom: 30px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Footer */
+    footer {
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+      background-color: #7b2ff7;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .skills-description {
+        font-size: 16px;
+      }
+
+      .skills-section h2 {
+        font-size: 28px;
+      }
+
+      .skills-section h3 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="portfolio"><a href="index.html">Portfolio</a></div>
+    <div class="nav-links">
+      <a href="profile.html" class="profile">Profile</a>
+      <a href="skills.html" class="skills">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="skills-section">
+    <h2>Our Skills</h2>
+
+    <!-- John Lloyd's Skills -->
+    <div class="skills">
+      <h3>John Lloyd Cutamora</h3>
+      <p class="skills-description">
+        A front-end developer skilled in HTML, CSS, and JavaScript. John Lloyd creates clean, responsive websites with interactive features. He’s also proficient in graphic design and photo editing, ensuring a visually appealing, user-friendly experience.
+      </p>
+    </div>
+
+    <!-- Joril's Skills -->
+    <div class="skills">
+      <h3>Joril Caballero</h3>
+      <p class="skills-description">
+        A UI/UX designer focused on creating visually stunning, user-centered interfaces. Joril excels in responsive design, ensuring seamless performance on all devices. His creative solutions solve complex design challenges and enhance user experience.
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>2025 Caballero and Cutamora (Cebu Eastern College). All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
